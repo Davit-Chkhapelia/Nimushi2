@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #111111;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.active-color {
+    color: #bc4c2a;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    padding: 0 70px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+header section.flex-center {
+    width: 100%;
+    justify-content: space-between;
+}
+
+header section.flex-center aside.search {
+    padding: 0 35px;
+}
+
+header section.flex-center aside.search div.flex-center {
+    border-bottom: 2px #bc4c2a;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+    /*გარშემო წვრილი შავი ბორდერი ვერ გავაქრე :( */
+}
+
+header section.flex-center aside.search div.flex-center input::placeholder {
+    color: #bc4c2a;
+}
+
+header section.flex-center aside.search div.flex-center input:focus {
+    outline: none;
+}
+
+header section.flex-center aside.search div.flex-center:hover {
+    border-bottom: 2px solid #bc4c2a;
+}
+
+header section.flex-center a h2 {
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 10;
+    margin: 0;
+}
+
+header section.flex-center aside.links {
+    gap: 35px;
+}
+
+header section.flex-center aside.links ul {
+    gap: 10px;
+}
+
+header section.flex-center aside.links ul li a {
+    color: #000000;
+    font-size: 20px;
+}
+
+header section.flex-center aside.links a.active-color {
+    font-size: 20px;
+}
+
+header nav ul {
+    gap: 50px;
+}
+
+header nav ul li a {
+    font-size: 16px;
+    color: #000000;
+}
+
+/*ორიგინალურ საიტზე მთელი შრიფტი უფრო წვრილია და ვერ გავიგე როგორ გავაკეთო იგივენაირად*/
